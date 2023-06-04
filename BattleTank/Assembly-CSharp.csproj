@@ -36,23 +36,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\_Completed-Assets\Scripts\Managers\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Shell\ShellExplosion.cs" />
-     <Compile Include="Assets\Scripts\Camera\CameraControl.cs" />
      <Compile Include="Assets\Scripts\Tank\TankMovement.cs" />
+     <Compile Include="Assets\Scripts\Shell\ShellExplosion.cs" />
      <Compile Include="Assets\Scripts\UI\UIDirectionControl.cs" />
      <Compile Include="Assets\_Completed-Assets\Scripts\Tank\TankShooting.cs" />
-     <Compile Include="Assets\Scripts\Tank\TankHealth.cs" />
-     <Compile Include="Assets\_Completed-Assets\Scripts\Camera\CameraControl.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraControl.cs" />
      <Compile Include="Assets\_Completed-Assets\Scripts\UI\UIDirectionControl.cs" />
-     <Compile Include="Assets\_Completed-Assets\Scripts\Managers\TankManager.cs" />
      <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-     <Compile Include="Assets\_Completed-Assets\Scripts\Tank\TankHealth.cs" />
-     <Compile Include="Assets\_Completed-Assets\Scripts\Tank\TankMovement.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Managers\TankManager.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Camera\CameraControl.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Tank\TankHealth.cs" />
      <Compile Include="Assets\_Completed-Assets\Scripts\Shell\ShellExplosion.cs" />
+     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Tank\TankHealth.cs" />
      <Compile Include="Assets\Scripts\Managers\TankManager.cs" />
      <Compile Include="Assets\Scripts\Tank\TankShooting.cs" />
+     <Compile Include="Assets\_Completed-Assets\Scripts\Tank\TankMovement.cs" />
      <None Include="Assets\Fonts\Bowlby_One\FontLicense.txt" />
      <None Include="Assets\Tanks!_Third-PartyNotice.txt" />
     <Reference Include="UnityEngine">
@@ -286,8 +286,8 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:/Program Files/Unity 2021.1.12f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    <Reference Include="Unity.Analytics.StandardEvents">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
@@ -295,11 +295,11 @@
     <Reference Include="Unity.Analytics.Editor">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Tracker">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity 2021.1.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -649,17 +649,23 @@
     <Reference Include="Unity.VisualScripting.Flow.Editor">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Purchasing.Common">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -670,65 +676,44 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="VSSettingsProvider">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Purchasing.Common">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityStub">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements.Editor">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing.Codeless">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Monetization">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Editor">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
+    <Reference Include="VSSettingsProvider">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-weaver.Editor">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Analytics">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
@@ -736,34 +721,41 @@
     <Reference Include="UnityEngine.Purchasing.SecurityCore">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Purchasing.Stores">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
-    </Reference>
-    <Reference Include="Analytics">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-weaver.Editor">
-        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Purchasing">
         <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>C:/lam game Unity 3D/BattleTank/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{a17ec70c-47be-8068-051f-e5a53c3c2c7b}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{b29323f1-91b5-4a4b-937d-1b887b1f5dbc}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
       <Project>{88e91a56-5fc3-e93f-6508-a0545d05e3da}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
@@ -771,6 +763,14 @@
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
       <Project>{ec0509b4-f6e6-2580-5530-1903077c7269}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{a17ec70c-47be-8068-051f-e5a53c3c2c7b}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{b29323f1-91b5-4a4b-937d-1b887b1f5dbc}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
