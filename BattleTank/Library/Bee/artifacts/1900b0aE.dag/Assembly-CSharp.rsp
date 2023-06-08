@@ -107,8 +107,14 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:PHOTON_UNITY_NETWORKING
+-define:PUN_2_0_OR_NEWER
+-define:PUN_2_OR_NEWER
+-define:PUN_2_19_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
+-r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
 -r:"C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
 -r:"C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll"
 -r:"C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll"
@@ -310,6 +316,16 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.multiplayer-hlapi.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.multiplayer-hlapi.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.multiplayer-weaver.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonChat.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonRealtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Demos.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.Culling.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PunDemos.DemoHubEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PunDemos.DemoSlotcarEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
@@ -346,7 +362,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
+"Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
+"Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/Camera/CameraControl.cs"
+"Assets/Scripts/Launcher.cs"
 "Assets/Scripts/Managers/GameManager.cs"
 "Assets/Scripts/Managers/TankManager.cs"
 "Assets/Scripts/Shell/ShellExplosion.cs"

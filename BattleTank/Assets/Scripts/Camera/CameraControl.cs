@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
+using Photon.Pun;
 
-public class CameraControl : MonoBehaviour
+public class CameraControl : MonoBehaviourPunCallbacks
 {
     public float m_DampTime = 0.2f;                 
     public float m_ScreenEdgeBuffer = 4f;           
