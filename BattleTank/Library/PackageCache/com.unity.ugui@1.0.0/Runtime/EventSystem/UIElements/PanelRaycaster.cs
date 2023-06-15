@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 namespace UnityEngine.UIElements
 {
+    // This code is disabled unless the UI Toolkit package or the com.unity.modules.uielements module are present.
+    // The UIElements module is always present in the Editor but it can be stripped from a project build if unused.
 #if PACKAGE_UITOOLKIT
     /// <summary>
     /// A derived BaseRaycaster to raycast against UI Toolkit panel instances at runtime.
@@ -56,8 +58,8 @@ namespace UnityEngine.UIElements
 
         private GameObject selectableGameObject => m_Panel?.selectableGameObject;
 
-        public override int sortOrderPriority => (int)(m_Panel?.sortingPriority ?? 0f);
-        public override int renderOrderPriority => ConvertFloatBitsToInt(m_Panel?.sortingPriority ?? 0f);
+        public override int sortOrderPriority => Mathf.FloorToInt(m_Panel?.sortingPriority ?? 0f);
+        public override int renderOrderPriority => int.MaxValue - (UIElementsRuntimeUtility.s_ResolvedSortingIndexMax - (m_Panel?.resolvedSortingIndex ?? 0));
 
         public override void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList)
         {
@@ -83,8 +85,13 @@ namespace UnityEngine.UIElements
                 // The multiple display system is not supported on all platforms, when it is not supported the returned position
                 // will be all zeros so when the returned index is 0 we will default to the event data to be safe.
                 eventPosition = eventData.position;
+#if UNITY_EDITOR
+                if (Display.activeEditorGameViewTarget != displayIndex)
+                    return;
+                eventPosition.z = Display.activeEditorGameViewTarget;
+#endif
 
-                // We dont really know in which display the event occured. We will process the event assuming it occured in our display.
+                // We don't really know in which display the event occurred. We will process the event assuming it occurred in our display.
             }
 
             var position = eventPosition;
@@ -99,12 +106,30 @@ namespace UnityEngine.UIElements
             position.y = h - position.y;
             delta.y = -delta.y;
 
-            if (!m_Panel.ScreenToPanel(position, delta, out var panelPosition, out _))
+            var eventSystem = UIElementsRuntimeUtility.activeEventSystem as EventSystem;
+            if (eventSystem == null || eventSystem.currentInputModule == null)
+                return;
+            var pointerId = eventSystem.currentInputModule.ConvertUIToolkitPointerId(eventData);
+
+            var capturingElement = m_Panel.GetCapturingElement(pointerId);
+            if (capturingElement is VisualElement ve && ve.panel != m_Panel)
                 return;
 
-            var pick = m_Panel.Pick(panelPosition);
-            if (pick == null)
+            var capturingPanel = PointerDeviceState.GetPressedButtons(pointerId) != 0 ?
+                                 PointerDeviceState.GetPlayerPanelWithSoftPointerCapture(pointerId) :
+                                 null;
+            if (capturingPanel != null && capturingPanel != m_Panel)
                 return;
+
+            if (capturingElement == null && capturingPanel == null)
+            {
+                if (!m_Panel.ScreenToPanel(position, delta, out var panelPosition, out _))
+                    return;
+
+                var pick = m_Panel.Pick(panelPosition);
+                if (pick == null)
+                    return;
+            }
 
             resultAppendList.Add(new RaycastResult
             {
@@ -116,22 +141,6 @@ namespace UnityEngine.UIElements
         }
 
         public override Camera eventCamera => null;
-
-
-        [StructLayout(LayoutKind.Explicit, Size = sizeof(int))]
-        private struct FloatIntBits
-        {
-            [FieldOffset(0)]
-            public float f;
-            [FieldOffset(0)]
-            public int i;
-        }
-
-        private static int ConvertFloatBitsToInt(float f)
-        {
-            FloatIntBits bits = new FloatIntBits {f = f};
-            return bits.i;
-        }
     }
 #endif
 }

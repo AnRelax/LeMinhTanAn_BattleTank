@@ -1,0 +1,756 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686807692956623, "dur":26900, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686807692983527, "dur":203, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686807692983765, "dur":97, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686807692983862, "dur":442, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686807692984396, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build/BattleTank_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1686807692984342, "dur":6348, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686807692990694, "dur":14543151, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686807707533849, "dur":344, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686807707534395, "dur":2594, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686807692984555, "dur":6143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686807692990700, "dur":8469, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686807692999975, "dur":454, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1686807693000433, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686807693000538, "dur":11588, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1686807693012128, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1686807693012594, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player772d3389-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1686807693000432, "dur":12377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686807693013121, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686807693013574, "dur":148502, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686807693167243, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686807693167242, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686807693167369, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686807693168227, "dur":14365649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686807692984609, "dur":6105, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686807692990715, "dur":1281, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686807692991996, "dur":7175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686807692999415, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807692999549, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807692999614, "dur":208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807692999823, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807692999981, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693000045, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693000115, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693000207, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693000263, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693000327, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetworkSolutionInterface.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693000389, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693000454, "dur":326, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Networking.Transport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693000781, "dur":397, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693001180, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Netcode.Components.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693001305, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693001388, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693001498, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693001561, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693001636, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693001746, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStats.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693001872, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693001964, "dur":196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693002161, "dur":334, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693002496, "dur":270, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Netcode.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693002767, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693002824, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693002888, "dur":196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693003085, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693003216, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricTestData.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693003326, "dur":281, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693003608, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693003664, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693003728, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693003796, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693003895, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693003954, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693004022, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693004077, "dur":268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693004347, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693004430, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693004533, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693004672, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693004752, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693004823, "dur":402, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693005226, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693005285, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693005343, "dur":249, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693005592, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693005670, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Adapters.Ngo1.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693005725, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693005797, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693005919, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693006052, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693006155, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Initialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693006229, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Adapters.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693006311, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693006473, "dur":858, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693007332, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricTypes.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693007437, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693007532, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693007634, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsReporting.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693007698, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricEvents.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693007758, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693007851, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\\Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693007951, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\PackageCache\\com.unity.burst@1.8.4\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693008014, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686807693008167, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":2, "ts":1686807693008273, "dur":867, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\PackageCache\\com.unity.burst@1.8.4\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686807692999179, "dur":9962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":2, "ts":1686807693009147, "dur":74, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686807693009905, "dur":14519921, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":3, "ts":1686807692984577, "dur":6126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807692990707, "dur":1307, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807692992014, "dur":7167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807692999182, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686807692999310, "dur":1719, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693001042, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686807693001035, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686807693001171, "dur":505, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693001684, "dur":10778, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693001683, "dur":10781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693012480, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693014704, "dur":9533, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693014702, "dur":9536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693024255, "dur":3619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693027940, "dur":10942, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.SecurityStub.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693027939, "dur":10944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693038892, "dur":154, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693039048, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693041385, "dur":9399, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.WinRTStub.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693041383, "dur":9402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693050801, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693053132, "dur":10194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693053131, "dur":10197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693063349, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693064791, "dur":7685, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693064789, "dur":7689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.AI.Navigation.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693072501, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.AI.Navigation.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693073852, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693073949, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693073947, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693074031, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693074112, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693074111, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693074222, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693074437, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693074436, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693074488, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693074754, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693074752, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693074809, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693075039, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693075038, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693075095, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693075220, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693075687, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693075685, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693075772, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693075974, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693076029, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693076155, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693076208, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693076387, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693076594, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693076592, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693076657, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693076902, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693076901, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693076954, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693077042, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693077040, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693077095, "dur":991, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693078131, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693078513, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693078564, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693079098, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693079097, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693079156, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693079483, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693079482, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686807693079535, "dur":645, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693080191, "dur":535, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693080743, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693080833, "dur":1566, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693082413, "dur":434, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693082867, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686807693085640, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686807693088192, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686807693090510, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686807693092431, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686807693094560, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686807693097147, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686807693099666, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693099835, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693100125, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693100234, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693100503, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693100803, "dur":694, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693101509, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693101993, "dur":644, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693102649, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693103110, "dur":982, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693104104, "dur":761, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686807693104892, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686807693107488, "dur":8609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686807693116173, "dur":14417713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807692984599, "dur":6110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807692990711, "dur":1228, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807692991939, "dur":7237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807692999222, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1686807692999179, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1686807692999341, "dur":1100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693000447, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686807693000445, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686807693000570, "dur":574, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693001150, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686807693001149, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686807693001252, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693001572, "dur":11382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsReporting.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693001571, "dur":11385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693012968, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693015336, "dur":10090, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetworkProfiler.Runtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693015334, "dur":10093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693025442, "dur":2900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693028405, "dur":9904, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693028403, "dur":9908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693038349, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693041057, "dur":9143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693041055, "dur":9147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693050245, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693051933, "dur":10119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693051931, "dur":10123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693062076, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693063253, "dur":7126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693063251, "dur":7131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693070409, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693071682, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693071678, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693071745, "dur":970, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693072725, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693072723, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693072800, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693072934, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693072933, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693073037, "dur":540, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693073585, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693073583, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693073685, "dur":356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693074049, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693074047, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693074134, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693074424, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693074395, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693074482, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693074703, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693074702, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693074775, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693074918, "dur":822, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693075749, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693075747, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693075807, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693076043, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693076041, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693076106, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693076325, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693076324, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693076411, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693076714, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693076846, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693076844, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693076919, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693077064, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693077062, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693077134, "dur":698, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693077840, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693077839, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693077903, "dur":628, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693078537, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ContentLoadModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693078535, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693078594, "dur":504, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693079105, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693079103, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686807693079161, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693079581, "dur":690, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693080280, "dur":435, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693080723, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693080815, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693081057, "dur":1411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693082485, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686807693085381, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Initialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686807693087709, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686807693090658, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686807693092763, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686807693095527, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686807693097718, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686807693100339, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693100510, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693100807, "dur":688, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693101506, "dur":473, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693101990, "dur":621, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693102621, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693103046, "dur":1040, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693104107, "dur":757, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686807693104891, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686807693107912, "dur":17438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1686807693125395, "dur":14408453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807692984632, "dur":6086, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807692990720, "dur":1285, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807692992005, "dur":7168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807692999185, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807692999402, "dur":1297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807693000703, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686807693000842, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807693001294, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1686807693001373, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807693001442, "dur":9520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Component.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693001434, "dur":9529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693011080, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693014095, "dur":10768, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Purchasing.Common.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693014093, "dur":10791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Purchasing.Common.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693024897, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Purchasing.Common.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693028142, "dur":8759, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693028140, "dur":8763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Burst.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693036927, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Burst.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693038575, "dur":7975, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693038573, "dur":7979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693046569, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693048131, "dur":9351, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStats.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693048130, "dur":9354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStats.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693057514, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStats.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693059052, "dur":8747, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693059051, "dur":8750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693067841, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693069315, "dur":8372, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693069312, "dur":8376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693077700, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1686807693080846, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807693080927, "dur":1479, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807693082420, "dur":477, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807693082953, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686807693085968, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686807693088740, "dur":2628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686807693091430, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686807693093883, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686807693096193, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Networking.Transport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686807693099219, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686807693103333, "dur":1083, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807693104426, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686807693104937, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1686807693107189, "dur":10388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686807693117634, "dur":14416219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807692984656, "dur":6066, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807692990725, "dur":1236, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807692991961, "dur":7213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807692999220, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686807692999179, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686807692999349, "dur":658, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693000014, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1686807693000012, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1686807693000112, "dur":995, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693001111, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686807693001209, "dur":670, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693001886, "dur":10212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Analytics.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693001885, "dur":10215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Analytics.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693012101, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693012243, "dur":8153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693012241, "dur":8159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693020448, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693021987, "dur":8771, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693021985, "dur":8775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693030788, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693031984, "dur":12852, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Profiling.Core.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693031982, "dur":12856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Profiling.Core.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693044862, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Profiling.Core.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693045893, "dur":7368, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693045891, "dur":7372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693053283, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693054564, "dur":9273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693054563, "dur":9276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693063853, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693065876, "dur":10989, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693065875, "dur":10991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Postprocessing.Runtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693076903, "dur":3864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Postprocessing.Runtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1686807693080825, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693081138, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686807693083913, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686807693086457, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686807693089053, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686807693091659, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686807693093798, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686807693095403, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686807693097510, "dur":2745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686807693100308, "dur":375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693100693, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693100811, "dur":745, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693101564, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693102009, "dur":595, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693102615, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693103031, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693103123, "dur":965, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693104114, "dur":741, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693104865, "dur":584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686807693105467, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1686807693109121, "dur":8435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1686807693117608, "dur":14416232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686807692984701, "dur":6028, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686807692990731, "dur":1270, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686807692992002, "dur":7190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686807692999193, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1686807692999309, "dur":1525, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686807693000847, "dur":323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686807693000838, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686807693001172, "dur":543, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686807693001720, "dur":11243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693001719, "dur":11245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Mathematics.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693012975, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Mathematics.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693015418, "dur":9825, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693015417, "dur":9828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693025263, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693028293, "dur":8694, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.WinRTCore.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693028292, "dur":8697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693037006, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693038419, "dur":7908, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693038418, "dur":7911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693046351, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693047505, "dur":9602, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.SecurityCore.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693047503, "dur":9606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693057144, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693058749, "dur":44045, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Networking.Transport.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693058748, "dur":44048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Networking.Transport.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693102815, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Networking.Transport.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686807693106495, "dur":8282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/resources.resource" }}
+,{ "pid":12345, "tid":7, "ts":1686807693115035, "dur":14418846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807692984720, "dur":6014, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807692990736, "dur":1287, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807692992023, "dur":7157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807692999246, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686807692999180, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686807692999354, "dur":1700, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807693001061, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1686807693001189, "dur":490, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807693001687, "dur":10181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693001686, "dur":10184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693011915, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693013878, "dur":8205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693013877, "dur":8208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693023479, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807693022105, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693023644, "dur":8685, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693023642, "dur":8690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693032359, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693033580, "dur":6960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Common.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693033577, "dur":6965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693040559, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693042366, "dur":15244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693042364, "dur":15247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Collections.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693057626, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Collections.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693059218, "dur":7502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetworkSolutionInterface.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693059216, "dur":7506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693066740, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693067859, "dur":15215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.AppleMacosStub.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693067856, "dur":15219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693083118, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1686807693085943, "dur":3056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686807693089065, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686807693091455, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686807693093764, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686807693096055, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686807693098782, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686807693101944, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807693102100, "dur":929, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807693103063, "dur":1025, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807693104139, "dur":725, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807693104869, "dur":293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686807693104868, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686807693105164, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686807693105239, "dur":2910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1686807693108212, "dur":19206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1686807693127469, "dur":14406398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807692984739, "dur":5999, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807692990740, "dur":1315, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807692992056, "dur":7126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807692999194, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1686807692999183, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1686807692999318, "dur":1530, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693000852, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1686807693001290, "dur":405, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693001700, "dur":10165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricTypes.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693001699, "dur":10168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693011881, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693013787, "dur":9721, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693013786, "dur":9724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693023568, "dur":4158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693027778, "dur":10868, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Advertisements.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693027776, "dur":10871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Advertisements.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693038663, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Advertisements.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693040287, "dur":10323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693040285, "dur":10327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693050643, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693052817, "dur":10929, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693052815, "dur":10933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693063760, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693065858, "dur":10832, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.AppleStub.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693065857, "dur":10834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693076709, "dur":4012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1686807693080774, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693080964, "dur":1441, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693082436, "dur":2722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686807693085220, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686807693087640, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686807693090593, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686807693092528, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686807693094670, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686807693096973, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686807693099581, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693099843, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693100167, "dur":371, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693100546, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693100820, "dur":670, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693101500, "dur":477, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693101986, "dur":615, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693102612, "dur":410, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693103042, "dur":1044, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693104097, "dur":359, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693104464, "dur":397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693104867, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.services.core\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1686807693104866, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1686807693105141, "dur":630, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686807693105857, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1686807693107605, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1686807693110318, "dur":7026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1686807693117421, "dur":14416437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807692984766, "dur":5977, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807692990745, "dur":1305, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807692992050, "dur":7129, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807692999181, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1686807692999303, "dur":777, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693000085, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1686807693000167, "dur":949, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693001131, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686807693001121, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686807693001229, "dur":333, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693001569, "dur":10838, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricEvents.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693001568, "dur":10840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693012421, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693015042, "dur":10532, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693015040, "dur":10536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693025593, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693028645, "dur":9913, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.AppleCore.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693028643, "dur":9917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693038575, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693041092, "dur":8277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.Codeless.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693041090, "dur":8282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.Codeless.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693049401, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.Codeless.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693051112, "dur":8823, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693051110, "dur":8828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693059997, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693061602, "dur":9074, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693061600, "dur":9078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693070687, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693071956, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693070747, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693072556, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693072554, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693072625, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693072965, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693072963, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693073016, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693073511, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693073506, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693073647, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693073921, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693073919, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693073979, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074068, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074066, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074130, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074257, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074554, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074552, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074611, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074698, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074696, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074785, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074875, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074874, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693074957, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693075055, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693075053, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693075145, "dur":678, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693075881, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693076091, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693076089, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693076192, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693076526, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693076524, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693076590, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693076797, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693076849, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693076976, "dur":855, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693077838, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693077837, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693077892, "dur":577, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693078523, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693078788, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693079143, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693079142, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693079218, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693079489, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1686807693079540, "dur":635, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693080184, "dur":747, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693080938, "dur":1466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693082417, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693082961, "dur":2797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686807693085815, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686807693088416, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686807693090748, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686807693092812, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686807693095640, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Netcode.Components.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686807693097745, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686807693100751, "dur":734, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693101497, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693101783, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693102043, "dur":766, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693102820, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693103058, "dur":1029, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693104101, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693104475, "dur":546, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686807693105063, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1686807693108005, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1686807693111831, "dur":5028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1686807693116908, "dur":14416955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807692984807, "dur":5940, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807692990749, "dur":1247, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807692991996, "dur":7179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807692999210, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1686807692999179, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1686807692999329, "dur":673, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693000007, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1686807693000106, "dur":1220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693001375, "dur":879, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693002261, "dur":9824, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Initialization.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693002259, "dur":9828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Initialization.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693012099, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Initialization.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693014192, "dur":9877, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Adapters.Ngo1.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693014191, "dur":9880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693024085, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693027629, "dur":11572, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693027628, "dur":11575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693039218, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693041684, "dur":9312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Netcode.Runtime.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693041682, "dur":9316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693051010, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693053179, "dur":10669, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Netcode.Components.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693053178, "dur":10672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Netcode.Components.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693063860, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Netcode.Components.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693066214, "dur":10069, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.Stores.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693066212, "dur":10073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.Stores.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693076285, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693076412, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693076410, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693076478, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693076558, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693076609, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693076847, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693076846, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693076916, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693077067, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693077119, "dur":737, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693077860, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693077910, "dur":602, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693078517, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693078516, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693078569, "dur":551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693079151, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693079124, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693079218, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693079488, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693079487, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1686807693079541, "dur":672, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693080220, "dur":954, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693081182, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693081258, "dur":3306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686807693084623, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686807693087335, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686807693090200, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686807693091787, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686807693094145, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686807693096363, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686807693099348, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693099492, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693099836, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693100159, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693100467, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693100792, "dur":699, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693101502, "dur":488, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693102000, "dur":608, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693102618, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693103035, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693103128, "dur":1292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693104430, "dur":584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693112210, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686807693105053, "dur":7239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1686807693112434, "dur":5604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1686807693118091, "dur":14415800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807692984823, "dur":5929, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807692990753, "dur":1053, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807692991806, "dur":7372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807692999179, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1686807692999305, "dur":1158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693000468, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1686807693000599, "dur":579, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693001189, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":12, "ts":1686807693001182, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank.exe" }}
+,{ "pid":12345, "tid":12, "ts":1686807693001297, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693001347, "dur":893, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693002247, "dur":10825, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Adapters.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693002245, "dur":10828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693013132, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693015637, "dur":11301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693015636, "dur":11305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693026963, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693028820, "dur":9611, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693028819, "dur":9613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693038449, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693040065, "dur":10564, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricTestData.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693040063, "dur":10567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693050646, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693052248, "dur":11322, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693052246, "dur":11326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693063612, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693065483, "dur":8968, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\lam game Unity 3D\\BattleTank\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Analytics.DataPrivacy.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693065482, "dur":8970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/Unity.Analytics.DataPrivacy.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693074468, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Analytics.DataPrivacy.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693077119, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693077117, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693077173, "dur":661, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693077845, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693077843, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693077907, "dur":565, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693078479, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693078478, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693078531, "dur":557, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693079142, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693079493, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693079492, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1686807693079557, "dur":622, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693080187, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693080529, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693080607, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693080785, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693081023, "dur":1386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693082439, "dur":2588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686807693085074, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693085448, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686807693087602, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686807693089945, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686807693091906, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686807693094220, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686807693096442, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686807693098957, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693099097, "dur":4148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686807693103298, "dur":1171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693104478, "dur":540, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686807693105061, "dur":4766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1686807693109934, "dur":6312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/BattleTank_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1686807693116289, "dur":14417554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686807707540717, "dur":2419, "ph":"X", "name": "ProfilerWriteOutput" }
+,
