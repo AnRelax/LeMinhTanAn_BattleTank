@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
-using Photon.Pun;
+using Unity.Netcode;
 
-public class CameraControl : MonoBehaviourPunCallbacks
+public class CameraControl : NetworkBehaviour
 {
     public float m_DampTime = 0.2f;                 
     public float m_ScreenEdgeBuffer = 4f;           

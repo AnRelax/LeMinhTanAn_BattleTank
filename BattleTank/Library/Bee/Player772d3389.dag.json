@@ -340,20 +340,7 @@
         332,
         333,
         334,
-        335,
-        336,
-        337,
-        338,
-        339,
-        340,
-        341,
-        342,
-        343,
-        344,
-        345,
-        346,
-        347,
-        348
+        335
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -491,18 +478,6 @@
       "DebugActionIndex": 11
     },
     {
-      "Annotation": "CopyFiles Build/BattleTank_Data/resources.resource",
-      "DisplayName": "Copying resources.resource",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Win64/Data/resources.resource"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/resources.resource"
-      ],
-      "DebugActionIndex": 12
-    },
-    {
       "Annotation": "CopyFiles Build/BattleTank_Data/Resources/unity_builtin_extra",
       "DisplayName": "Copying unity_builtin_extra",
       "ActionType": "CopyFiles",
@@ -512,7 +487,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Resources/unity_builtin_extra"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/RuntimeInitializeOnLoads.json",
@@ -524,7 +499,7 @@
       "Outputs": [
         "Build/BattleTank_Data/RuntimeInitializeOnLoads.json"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/ScriptingAssemblies.json",
@@ -536,7 +511,7 @@
       "Outputs": [
         "Build/BattleTank_Data/ScriptingAssemblies.json"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/sharedassets0.assets",
@@ -548,7 +523,7 @@
       "Outputs": [
         "Build/BattleTank_Data/sharedassets0.assets"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/sharedassets0.assets.resS",
@@ -560,7 +535,7 @@
       "Outputs": [
         "Build/BattleTank_Data/sharedassets0.assets.resS"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/sharedassets0.resource",
@@ -572,7 +547,7 @@
       "Outputs": [
         "Build/BattleTank_Data/sharedassets0.resource"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/sharedassets1.assets",
@@ -583,6 +558,18 @@
       ],
       "Outputs": [
         "Build/BattleTank_Data/sharedassets1.assets"
+      ],
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles Build/BattleTank_Data/sharedassets1.assets.resS",
+      "DisplayName": "Copying sharedassets1.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS"
+      ],
+      "Outputs": [
+        "Build/BattleTank_Data/sharedassets1.assets.resS"
       ],
       "DebugActionIndex": 19
     },
@@ -615,7 +602,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 20858,
+      "PayloadLength": 20210,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -641,7 +628,6 @@
         "Library/PlayerDataCache/Win64/Data/level2.resS",
         "Library/PlayerDataCache/Win64/Data/resources.assets",
         "Library/PlayerDataCache/Win64/Data/resources.assets.resS",
-        "Library/PlayerDataCache/Win64/Data/resources.resource",
         "Library/PlayerDataCache/Win64/Data/Resources/unity_builtin_extra",
         "Library/PlayerDataCache/Win64/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json",
@@ -649,6 +635,7 @@
         "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS",
         "Library/PlayerDataCache/Win64/Data/sharedassets0.resource",
         "Library/PlayerDataCache/Win64/Data/sharedassets1.assets",
+        "Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS",
         "Library/PlayerDataCache/Win64/Data/sharedassets1.resource",
         "Library/PlayerDataCache/Win64/Data/sharedassets2.assets",
         "C:/Program Files/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
@@ -733,25 +720,21 @@
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Networking.Transport.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Components.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.NetStats.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll",
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.MetricTestData.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Common.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.dll",
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Common.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
@@ -769,7 +752,6 @@
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Adapters.Ngo1.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Purchasing.Common.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Initialization.dll",
@@ -783,9 +765,7 @@
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.MetricEvents.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll",
         "C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
-        "C:/lam game Unity 3D/BattleTank/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
         "C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "C:/lam game Unity 3D/BattleTank/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
         "C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.Unsafe.dll",
         "C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "C:/Program Files/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
@@ -1870,18 +1850,6 @@
       "DebugActionIndex": 107
     },
     {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/PhotonChat.dll",
-      "DisplayName": "Copying PhotonChat.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/PhotonChat.dll"
-      ],
-      "DebugActionIndex": 108
-    },
-    {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll",
       "DisplayName": "Copying Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll",
       "ActionType": "CopyFiles",
@@ -1891,7 +1859,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Scheduler.dll",
@@ -1903,7 +1871,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Scheduler.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.dll",
@@ -1915,7 +1883,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Configuration.dll",
@@ -1927,7 +1895,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Configuration.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll",
@@ -1939,7 +1907,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll",
@@ -1951,43 +1919,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll"
       ],
-      "DebugActionIndex": 114
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/PhotonUnityNetworking.dll",
-      "DisplayName": "Copying PhotonUnityNetworking.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/PhotonUnityNetworking.dll"
-      ],
-      "DebugActionIndex": 115
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Collections.dll",
-      "DisplayName": "Copying Unity.Collections.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/Unity.Collections.dll"
-      ],
-      "DebugActionIndex": 116
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.dll",
-      "DisplayName": "Copying Unity.Netcode.Runtime.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.dll"
-      ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll",
@@ -1999,7 +1931,31 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 114
+    },
+    {
+      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Collections.dll",
+      "DisplayName": "Copying Unity.Collections.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll"
+      ],
+      "Outputs": [
+        "Build/BattleTank_Data/Managed/Unity.Collections.dll"
+      ],
+      "DebugActionIndex": 115
+    },
+    {
+      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.dll",
+      "DisplayName": "Copying Unity.Netcode.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll"
+      ],
+      "Outputs": [
+        "Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.dll"
+      ],
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.Codeless.dll",
@@ -2011,31 +1967,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.Codeless.dll"
       ],
-      "DebugActionIndex": 119
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/PhotonUnityNetworking.Demos.dll",
-      "DisplayName": "Copying PhotonUnityNetworking.Demos.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/PhotonUnityNetworking.Demos.dll"
-      ],
-      "DebugActionIndex": 120
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/PhotonUnityNetworking.Utilities.dll",
-      "DisplayName": "Copying PhotonUnityNetworking.Utilities.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/PhotonUnityNetworking.Utilities.dll"
-      ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.dll",
@@ -2047,7 +1979,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.TextMeshPro.dll",
@@ -2059,7 +1991,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Analytics.dll",
@@ -2071,19 +2003,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Analytics.dll"
       ],
-      "DebugActionIndex": 124
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.dll",
-      "DisplayName": "Copying Unity.Multiplayer.Tools.Common.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Common.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.dll"
-      ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Profiling.Core.dll",
@@ -2095,7 +2015,19 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Profiling.Core.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 121
+    },
+    {
+      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.dll",
+      "DisplayName": "Copying Unity.Multiplayer.Tools.Common.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Common.dll"
+      ],
+      "Outputs": [
+        "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.dll"
+      ],
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.dll",
@@ -2107,7 +2039,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleCore.dll",
@@ -2119,7 +2051,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleCore.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
@@ -2131,7 +2063,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll",
@@ -2143,7 +2075,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Burst.dll",
@@ -2155,7 +2087,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Burst.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll",
@@ -2167,7 +2099,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Advertisements.dll",
@@ -2179,7 +2111,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Advertisements.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Internal.dll",
@@ -2191,7 +2123,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Internal.dll"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Device.dll",
@@ -2203,7 +2135,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Device.dll"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Threading.dll",
@@ -2215,7 +2147,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Threading.dll"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -2227,7 +2159,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SpatialTracking.dll",
@@ -2239,7 +2171,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.SpatialTracking.dll"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll",
@@ -2251,7 +2183,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UI.dll",
@@ -2263,7 +2195,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Telemetry.dll",
@@ -2275,7 +2207,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Telemetry.dll"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.dll",
@@ -2287,7 +2219,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.dll"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Purchasing.Common.dll",
@@ -2299,19 +2231,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Purchasing.Common.dll"
       ],
-      "DebugActionIndex": 143
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/PhotonRealtime.dll",
-      "DisplayName": "Copying PhotonRealtime.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/PhotonRealtime.dll"
-      ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Timeline.dll",
@@ -2323,7 +2243,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll",
@@ -2335,7 +2255,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Initialization.dll",
@@ -2347,7 +2267,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Initialization.dll"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.dll",
@@ -2359,7 +2279,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.dll"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Analytics.dll",
@@ -2371,7 +2291,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Analytics.dll"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Mathematics.dll",
@@ -2383,7 +2303,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Mathematics.dll"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll",
@@ -2395,7 +2315,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Registration.dll",
@@ -2407,7 +2327,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Registration.dll"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.VisualScripting.State.dll",
@@ -2419,7 +2339,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll",
@@ -2431,7 +2351,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.dll",
@@ -2443,7 +2363,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.dll"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll",
@@ -2455,7 +2375,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
@@ -2467,19 +2387,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll"
       ],
-      "DebugActionIndex": 157
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/websocket-sharp.dll",
-      "DisplayName": "Copying websocket-sharp.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/websocket-sharp.dll"
-      ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -2491,19 +2399,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 159
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Photon3Unity3D.dll",
-      "DisplayName": "Copying Photon3Unity3D.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/Photon3Unity3D.dll"
-      ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Burst.Unsafe.dll",
@@ -2515,7 +2411,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Burst.Unsafe.dll"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Newtonsoft.Json.dll",
@@ -2527,7 +2423,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Runtime.dll",
@@ -2539,7 +2435,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Runtime.dll"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/netstandard.dll",
@@ -2551,7 +2447,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Mono.Security.dll",
@@ -2563,7 +2459,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.ComponentModel.Composition.dll",
@@ -2575,7 +2471,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Configuration.dll",
@@ -2587,7 +2483,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Core.dll",
@@ -2599,7 +2495,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -2611,7 +2507,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Data.dll",
@@ -2623,7 +2519,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Drawing.dll",
@@ -2635,7 +2531,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.EnterpriseServices.dll",
@@ -2647,7 +2543,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -2659,7 +2555,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.IO.Compression.dll",
@@ -2671,7 +2567,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Net.Http.dll",
@@ -2683,7 +2579,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Numerics.dll",
@@ -2695,7 +2591,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Runtime.Serialization.dll",
@@ -2707,7 +2603,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Security.dll",
@@ -2719,7 +2615,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.ServiceModel.Internals.dll",
@@ -2731,7 +2627,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Transactions.dll",
@@ -2743,7 +2639,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Xml.Linq.dll",
@@ -2755,7 +2651,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.Xml.dll",
@@ -2767,7 +2663,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/System.dll",
@@ -2779,7 +2675,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/mscorlib.dll",
@@ -2791,7 +2687,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AIModule.pdb",
@@ -2803,7 +2699,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.AIModule.pdb"
       ],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ARModule.pdb",
@@ -2815,7 +2711,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.ARModule.pdb"
       ],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AccessibilityModule.pdb",
@@ -2827,7 +2723,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.AccessibilityModule.pdb"
       ],
-      "DebugActionIndex": 187
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -2839,7 +2735,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.AndroidJNIModule.pdb"
       ],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AnimationModule.pdb",
@@ -2851,7 +2747,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.AnimationModule.pdb"
       ],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AssetBundleModule.pdb",
@@ -2863,7 +2759,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.AssetBundleModule.pdb"
       ],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.AudioModule.pdb",
@@ -2875,7 +2771,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.AudioModule.pdb"
       ],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ClothModule.pdb",
@@ -2887,7 +2783,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.ClothModule.pdb"
       ],
-      "DebugActionIndex": 192
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ClusterInputModule.pdb",
@@ -2899,7 +2795,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.ClusterInputModule.pdb"
       ],
-      "DebugActionIndex": 193
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ClusterRendererModule.pdb",
@@ -2911,7 +2807,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.ClusterRendererModule.pdb"
       ],
-      "DebugActionIndex": 194
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ContentLoadModule.pdb",
@@ -2923,7 +2819,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.ContentLoadModule.pdb"
       ],
-      "DebugActionIndex": 195
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.CoreModule.pdb",
@@ -2935,7 +2831,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.CoreModule.pdb"
       ],
-      "DebugActionIndex": 196
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.CrashReportingModule.pdb",
@@ -2947,7 +2843,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.CrashReportingModule.pdb"
       ],
-      "DebugActionIndex": 197
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.DSPGraphModule.pdb",
@@ -2959,7 +2855,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.DSPGraphModule.pdb"
       ],
-      "DebugActionIndex": 198
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.DirectorModule.pdb",
@@ -2971,7 +2867,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.DirectorModule.pdb"
       ],
-      "DebugActionIndex": 199
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.GIModule.pdb",
@@ -2983,7 +2879,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.GIModule.pdb"
       ],
-      "DebugActionIndex": 200
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.GameCenterModule.pdb",
@@ -2995,7 +2891,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.GameCenterModule.pdb"
       ],
-      "DebugActionIndex": 201
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.GridModule.pdb",
@@ -3007,7 +2903,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.GridModule.pdb"
       ],
-      "DebugActionIndex": 202
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.HotReloadModule.pdb",
@@ -3019,7 +2915,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.HotReloadModule.pdb"
       ],
-      "DebugActionIndex": 203
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.IMGUIModule.pdb",
@@ -3031,7 +2927,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.IMGUIModule.pdb"
       ],
-      "DebugActionIndex": 204
+      "DebugActionIndex": 197
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ImageConversionModule.pdb",
@@ -3043,7 +2939,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.ImageConversionModule.pdb"
       ],
-      "DebugActionIndex": 205
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -3055,7 +2951,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.InputLegacyModule.pdb"
       ],
-      "DebugActionIndex": 206
+      "DebugActionIndex": 199
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.InputModule.pdb",
@@ -3067,7 +2963,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.InputModule.pdb"
       ],
-      "DebugActionIndex": 207
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -3079,7 +2975,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.JSONSerializeModule.pdb"
       ],
-      "DebugActionIndex": 208
+      "DebugActionIndex": 201
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.LocalizationModule.pdb",
@@ -3091,7 +2987,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.LocalizationModule.pdb"
       ],
-      "DebugActionIndex": 209
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.NVIDIAModule.pdb",
@@ -3103,7 +2999,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.NVIDIAModule.pdb"
       ],
-      "DebugActionIndex": 210
+      "DebugActionIndex": 203
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ParticleSystemModule.pdb",
@@ -3115,7 +3011,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.ParticleSystemModule.pdb"
       ],
-      "DebugActionIndex": 211
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.PerformanceReportingModule.pdb",
@@ -3127,7 +3023,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.PerformanceReportingModule.pdb"
       ],
-      "DebugActionIndex": 212
+      "DebugActionIndex": 205
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Physics2DModule.pdb",
@@ -3139,7 +3035,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Physics2DModule.pdb"
       ],
-      "DebugActionIndex": 213
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.PhysicsModule.pdb",
@@ -3151,7 +3047,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.PhysicsModule.pdb"
       ],
-      "DebugActionIndex": 214
+      "DebugActionIndex": 207
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ProfilerModule.pdb",
@@ -3163,7 +3059,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.ProfilerModule.pdb"
       ],
-      "DebugActionIndex": 215
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.PropertiesModule.pdb",
@@ -3175,7 +3071,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.PropertiesModule.pdb"
       ],
-      "DebugActionIndex": 216
+      "DebugActionIndex": 209
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
@@ -3187,7 +3083,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
       ],
-      "DebugActionIndex": 217
+      "DebugActionIndex": 210
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.ScreenCaptureModule.pdb",
@@ -3199,7 +3095,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.ScreenCaptureModule.pdb"
       ],
-      "DebugActionIndex": 218
+      "DebugActionIndex": 211
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -3211,7 +3107,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.SharedInternalsModule.pdb"
       ],
-      "DebugActionIndex": 219
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SpriteMaskModule.pdb",
@@ -3223,7 +3119,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.SpriteMaskModule.pdb"
       ],
-      "DebugActionIndex": 220
+      "DebugActionIndex": 213
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -3235,7 +3131,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.SpriteShapeModule.pdb"
       ],
-      "DebugActionIndex": 221
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.StreamingModule.pdb",
@@ -3247,7 +3143,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.StreamingModule.pdb"
       ],
-      "DebugActionIndex": 222
+      "DebugActionIndex": 215
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SubstanceModule.pdb",
@@ -3259,7 +3155,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.SubstanceModule.pdb"
       ],
-      "DebugActionIndex": 223
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -3271,7 +3167,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.SubsystemsModule.pdb"
       ],
-      "DebugActionIndex": 224
+      "DebugActionIndex": 217
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TLSModule.pdb",
@@ -3283,7 +3179,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.TLSModule.pdb"
       ],
-      "DebugActionIndex": 225
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TerrainModule.pdb",
@@ -3295,7 +3191,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.TerrainModule.pdb"
       ],
-      "DebugActionIndex": 226
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb",
@@ -3307,7 +3203,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb"
       ],
-      "DebugActionIndex": 227
+      "DebugActionIndex": 220
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -3319,7 +3215,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb"
       ],
-      "DebugActionIndex": 228
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -3331,7 +3227,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb"
       ],
-      "DebugActionIndex": 229
+      "DebugActionIndex": 222
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -3343,7 +3239,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.TextRenderingModule.pdb"
       ],
-      "DebugActionIndex": 230
+      "DebugActionIndex": 223
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.TilemapModule.pdb",
@@ -3355,7 +3251,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.TilemapModule.pdb"
       ],
-      "DebugActionIndex": 231
+      "DebugActionIndex": 224
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UIElementsModule.pdb",
@@ -3367,7 +3263,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UIElementsModule.pdb"
       ],
-      "DebugActionIndex": 232
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UIModule.pdb",
@@ -3379,7 +3275,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UIModule.pdb"
       ],
-      "DebugActionIndex": 233
+      "DebugActionIndex": 226
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UmbraModule.pdb",
@@ -3391,7 +3287,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UmbraModule.pdb"
       ],
-      "DebugActionIndex": 234
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
@@ -3403,7 +3299,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb"
       ],
-      "DebugActionIndex": 235
+      "DebugActionIndex": 228
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb",
@@ -3415,7 +3311,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb"
       ],
-      "DebugActionIndex": 236
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityConnectModule.pdb",
@@ -3427,7 +3323,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UnityConnectModule.pdb"
       ],
-      "DebugActionIndex": 237
+      "DebugActionIndex": 230
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityCurlModule.pdb",
@@ -3439,7 +3335,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UnityCurlModule.pdb"
       ],
-      "DebugActionIndex": 238
+      "DebugActionIndex": 231
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb",
@@ -3451,7 +3347,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb"
       ],
-      "DebugActionIndex": 239
+      "DebugActionIndex": 232
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb",
@@ -3463,7 +3359,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
       ],
-      "DebugActionIndex": 240
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb",
@@ -3475,7 +3371,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb"
       ],
-      "DebugActionIndex": 241
+      "DebugActionIndex": 234
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -3487,7 +3383,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestModule.pdb"
       ],
-      "DebugActionIndex": 242
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
@@ -3499,7 +3395,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb"
       ],
-      "DebugActionIndex": 243
+      "DebugActionIndex": 236
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb",
@@ -3511,7 +3407,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb"
       ],
-      "DebugActionIndex": 244
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.VFXModule.pdb",
@@ -3523,7 +3419,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.VFXModule.pdb"
       ],
-      "DebugActionIndex": 245
+      "DebugActionIndex": 238
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.VRModule.pdb",
@@ -3535,7 +3431,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.VRModule.pdb"
       ],
-      "DebugActionIndex": 246
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.VehiclesModule.pdb",
@@ -3547,7 +3443,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.VehiclesModule.pdb"
       ],
-      "DebugActionIndex": 247
+      "DebugActionIndex": 240
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.VideoModule.pdb",
@@ -3559,7 +3455,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.VideoModule.pdb"
       ],
-      "DebugActionIndex": 248
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.VirtualTexturingModule.pdb",
@@ -3571,7 +3467,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.VirtualTexturingModule.pdb"
       ],
-      "DebugActionIndex": 249
+      "DebugActionIndex": 242
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.WindModule.pdb",
@@ -3583,7 +3479,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.WindModule.pdb"
       ],
-      "DebugActionIndex": 250
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.XRModule.pdb",
@@ -3595,7 +3491,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.XRModule.pdb"
       ],
-      "DebugActionIndex": 251
+      "DebugActionIndex": 244
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.pdb",
@@ -3607,7 +3503,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.pdb"
       ],
-      "DebugActionIndex": 252
+      "DebugActionIndex": 245
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Assembly-CSharp.pdb",
@@ -3619,7 +3515,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Assembly-CSharp.pdb"
       ],
-      "DebugActionIndex": 253
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb",
@@ -3631,7 +3527,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb"
       ],
-      "DebugActionIndex": 254
+      "DebugActionIndex": 247
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.Stores.pdb",
@@ -3643,7 +3539,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.Stores.pdb"
       ],
-      "DebugActionIndex": 255
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Postprocessing.Runtime.pdb",
@@ -3655,7 +3551,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Postprocessing.Runtime.pdb"
       ],
-      "DebugActionIndex": 256
+      "DebugActionIndex": 249
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb",
@@ -3667,7 +3563,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb"
       ],
-      "DebugActionIndex": 257
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Analytics.DataPrivacy.pdb",
@@ -3679,7 +3575,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Analytics.DataPrivacy.pdb"
       ],
-      "DebugActionIndex": 258
+      "DebugActionIndex": 251
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.AI.Navigation.pdb",
@@ -3691,7 +3587,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.AI.Navigation.pdb"
       ],
-      "DebugActionIndex": 259
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.Internal.pdb",
@@ -3703,7 +3599,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.Internal.pdb"
       ],
-      "DebugActionIndex": 260
+      "DebugActionIndex": 253
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.pdb",
@@ -3715,7 +3611,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.pdb"
       ],
-      "DebugActionIndex": 261
+      "DebugActionIndex": 254
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.pdb",
@@ -3727,7 +3623,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.pdb"
       ],
-      "DebugActionIndex": 262
+      "DebugActionIndex": 255
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Networking.pdb",
@@ -3739,7 +3635,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Networking.pdb"
       ],
-      "DebugActionIndex": 263
+      "DebugActionIndex": 256
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Networking.Transport.pdb",
@@ -3751,7 +3647,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Networking.Transport.pdb"
       ],
-      "DebugActionIndex": 264
+      "DebugActionIndex": 257
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.VisualScripting.Flow.pdb",
@@ -3763,7 +3659,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.VisualScripting.Flow.pdb"
       ],
-      "DebugActionIndex": 265
+      "DebugActionIndex": 258
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Netcode.Components.pdb",
@@ -3775,19 +3671,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Netcode.Components.pdb"
       ],
-      "DebugActionIndex": 266
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/PhotonChat.pdb",
-      "DisplayName": "Copying PhotonChat.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonChat.pdb"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/PhotonChat.pdb"
-      ],
-      "DebugActionIndex": 267
+      "DebugActionIndex": 259
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.pdb",
@@ -3799,7 +3683,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.pdb"
       ],
-      "DebugActionIndex": 268
+      "DebugActionIndex": 260
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Scheduler.pdb",
@@ -3811,7 +3695,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Scheduler.pdb"
       ],
-      "DebugActionIndex": 269
+      "DebugActionIndex": 261
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.pdb",
@@ -3823,7 +3707,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Environments.pdb"
       ],
-      "DebugActionIndex": 270
+      "DebugActionIndex": 262
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Configuration.pdb",
@@ -3835,7 +3719,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Configuration.pdb"
       ],
-      "DebugActionIndex": 271
+      "DebugActionIndex": 263
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStats.pdb",
@@ -3847,7 +3731,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStats.pdb"
       ],
-      "DebugActionIndex": 272
+      "DebugActionIndex": 264
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb",
@@ -3859,43 +3743,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb"
       ],
-      "DebugActionIndex": 273
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/PhotonUnityNetworking.pdb",
-      "DisplayName": "Copying PhotonUnityNetworking.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/PhotonUnityNetworking.pdb"
-      ],
-      "DebugActionIndex": 274
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Collections.pdb",
-      "DisplayName": "Copying Unity.Collections.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Collections.pdb"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/Unity.Collections.pdb"
-      ],
-      "DebugActionIndex": 275
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.pdb",
-      "DisplayName": "Copying Unity.Netcode.Runtime.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.pdb"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.pdb"
-      ],
-      "DebugActionIndex": 276
+      "DebugActionIndex": 265
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb",
@@ -3907,7 +3755,31 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb"
       ],
-      "DebugActionIndex": 277
+      "DebugActionIndex": 266
+    },
+    {
+      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Collections.pdb",
+      "DisplayName": "Copying Unity.Collections.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Collections.pdb"
+      ],
+      "Outputs": [
+        "Build/BattleTank_Data/Managed/Unity.Collections.pdb"
+      ],
+      "DebugActionIndex": 267
+    },
+    {
+      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.pdb",
+      "DisplayName": "Copying Unity.Netcode.Runtime.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.pdb"
+      ],
+      "Outputs": [
+        "Build/BattleTank_Data/Managed/Unity.Netcode.Runtime.pdb"
+      ],
+      "DebugActionIndex": 268
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.Codeless.pdb",
@@ -3919,31 +3791,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.Codeless.pdb"
       ],
-      "DebugActionIndex": 278
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/PhotonUnityNetworking.Demos.pdb",
-      "DisplayName": "Copying PhotonUnityNetworking.Demos.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.pdb"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/PhotonUnityNetworking.Demos.pdb"
-      ],
-      "DebugActionIndex": 279
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/PhotonUnityNetworking.Utilities.pdb",
-      "DisplayName": "Copying PhotonUnityNetworking.Utilities.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/PhotonUnityNetworking.Utilities.pdb"
-      ],
-      "DebugActionIndex": 280
+      "DebugActionIndex": 269
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.pdb",
@@ -3955,7 +3803,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.pdb"
       ],
-      "DebugActionIndex": 281
+      "DebugActionIndex": 270
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.TextMeshPro.pdb",
@@ -3967,7 +3815,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.TextMeshPro.pdb"
       ],
-      "DebugActionIndex": 282
+      "DebugActionIndex": 271
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Analytics.pdb",
@@ -3979,19 +3827,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Analytics.pdb"
       ],
-      "DebugActionIndex": 283
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.pdb",
-      "DisplayName": "Copying Unity.Multiplayer.Tools.Common.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Common.pdb"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.pdb"
-      ],
-      "DebugActionIndex": 284
+      "DebugActionIndex": 272
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Profiling.Core.pdb",
@@ -4003,7 +3839,19 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Profiling.Core.pdb"
       ],
-      "DebugActionIndex": 285
+      "DebugActionIndex": 273
+    },
+    {
+      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.pdb",
+      "DisplayName": "Copying Unity.Multiplayer.Tools.Common.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Common.pdb"
+      ],
+      "Outputs": [
+        "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.pdb"
+      ],
+      "DebugActionIndex": 274
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.pdb",
@@ -4015,7 +3863,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.pdb"
       ],
-      "DebugActionIndex": 286
+      "DebugActionIndex": 275
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb",
@@ -4027,7 +3875,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb"
       ],
-      "DebugActionIndex": 287
+      "DebugActionIndex": 276
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb",
@@ -4039,7 +3887,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb"
       ],
-      "DebugActionIndex": 288
+      "DebugActionIndex": 277
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb",
@@ -4051,7 +3899,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb"
       ],
-      "DebugActionIndex": 289
+      "DebugActionIndex": 278
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Burst.pdb",
@@ -4063,7 +3911,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Burst.pdb"
       ],
-      "DebugActionIndex": 290
+      "DebugActionIndex": 279
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb",
@@ -4075,7 +3923,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb"
       ],
-      "DebugActionIndex": 291
+      "DebugActionIndex": 280
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.Advertisements.pdb",
@@ -4087,7 +3935,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.Advertisements.pdb"
       ],
-      "DebugActionIndex": 292
+      "DebugActionIndex": 281
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Internal.pdb",
@@ -4099,7 +3947,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Internal.pdb"
       ],
-      "DebugActionIndex": 293
+      "DebugActionIndex": 282
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Device.pdb",
@@ -4111,7 +3959,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Device.pdb"
       ],
-      "DebugActionIndex": 294
+      "DebugActionIndex": 283
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Threading.pdb",
@@ -4123,7 +3971,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Threading.pdb"
       ],
-      "DebugActionIndex": 295
+      "DebugActionIndex": 284
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.VisualScripting.Core.pdb",
@@ -4135,7 +3983,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.VisualScripting.Core.pdb"
       ],
-      "DebugActionIndex": 296
+      "DebugActionIndex": 285
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.SpatialTracking.pdb",
@@ -4147,7 +3995,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.SpatialTracking.pdb"
       ],
-      "DebugActionIndex": 297
+      "DebugActionIndex": 286
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.pdb",
@@ -4159,7 +4007,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.pdb"
       ],
-      "DebugActionIndex": 298
+      "DebugActionIndex": 287
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/UnityEngine.UI.pdb",
@@ -4171,7 +4019,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/UnityEngine.UI.pdb"
       ],
-      "DebugActionIndex": 299
+      "DebugActionIndex": 288
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Telemetry.pdb",
@@ -4183,7 +4031,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Telemetry.pdb"
       ],
-      "DebugActionIndex": 300
+      "DebugActionIndex": 289
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.pdb",
@@ -4195,7 +4043,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.pdb"
       ],
-      "DebugActionIndex": 301
+      "DebugActionIndex": 290
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Purchasing.Common.pdb",
@@ -4207,19 +4055,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Purchasing.Common.pdb"
       ],
-      "DebugActionIndex": 302
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/PhotonRealtime.pdb",
-      "DisplayName": "Copying PhotonRealtime.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/PhotonRealtime.pdb"
-      ],
-      "DebugActionIndex": 303
+      "DebugActionIndex": 291
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Timeline.pdb",
@@ -4231,7 +4067,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Timeline.pdb"
       ],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 292
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.pdb",
@@ -4243,7 +4079,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.pdb"
       ],
-      "DebugActionIndex": 305
+      "DebugActionIndex": 293
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Initialization.pdb",
@@ -4255,7 +4091,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Initialization.pdb"
       ],
-      "DebugActionIndex": 306
+      "DebugActionIndex": 294
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.pdb",
@@ -4267,7 +4103,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Adapters.pdb"
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Analytics.pdb",
@@ -4279,7 +4115,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Analytics.pdb"
       ],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Mathematics.pdb",
@@ -4291,7 +4127,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Mathematics.pdb"
       ],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 297
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.pdb",
@@ -4303,7 +4139,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.pdb"
       ],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Services.Core.Registration.pdb",
@@ -4315,7 +4151,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Services.Core.Registration.pdb"
       ],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.VisualScripting.State.pdb",
@@ -4327,7 +4163,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.VisualScripting.State.pdb"
       ],
-      "DebugActionIndex": 312
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.pdb",
@@ -4339,7 +4175,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.pdb"
       ],
-      "DebugActionIndex": 313
+      "DebugActionIndex": 301
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.pdb",
@@ -4351,7 +4187,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.pdb"
       ],
-      "DebugActionIndex": 314
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.pdb",
@@ -4363,19 +4199,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.pdb"
       ],
-      "DebugActionIndex": 315
-    },
-    {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Photon3Unity3D.pdb",
-      "DisplayName": "Copying Photon3Unity3D.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/Photon3Unity3D.pdb"
-      ],
-      "DebugActionIndex": 316
+      "DebugActionIndex": 303
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Newtonsoft.Json.pdb",
@@ -4387,14 +4211,14 @@
       "Outputs": [
         "Build/BattleTank_Data/Managed/Newtonsoft.Json.pdb"
       ],
-      "DebugActionIndex": 317
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
       "DisplayName": "Running Burst Compiler",
       "ActionType": "RunRPCCommand",
-      "PayloadOffset": 21064,
-      "PayloadLength": 19402,
+      "PayloadOffset": 20416,
+      "PayloadLength": 18747,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Da",
       "Action": "GenerateNativePluginsForAssemblies",
       "Inputs": [
@@ -4480,25 +4304,21 @@
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Networking.Transport.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Components.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.NetStats.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll",
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.MetricTestData.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Common.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.dll",
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Common.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
@@ -4516,7 +4336,6 @@
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Adapters.Ngo1.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Purchasing.Common.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Initialization.dll",
@@ -4530,9 +4349,7 @@
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.MetricEvents.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll",
         "C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
-        "C:/lam game Unity 3D/BattleTank/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
         "C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "C:/lam game Unity 3D/BattleTank/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
         "C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.Unsafe.dll",
         "C:/lam game Unity 3D/BattleTank/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "C:/Program Files/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
@@ -4590,7 +4407,7 @@
           "Recurse": 1
         }
       ],
-      "DebugActionIndex": 318
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Plugins/x86_64/lib_burst_generated.dll",
@@ -4603,9 +4420,9 @@
         "Build/BattleTank_Data/Plugins/x86_64/lib_burst_generated.dll"
       ],
       "ToBuildDependencies": [
-        318
+        305
       ],
-      "DebugActionIndex": 319
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Plugins/x86_64/lib_burst_generated.pdb",
@@ -4618,22 +4435,22 @@
         "Build/BattleTank_Data/Plugins/x86_64/lib_burst_generated.pdb"
       ],
       "ToBuildDependencies": [
-        318
+        305
       ],
-      "DebugActionIndex": 320
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 40555,
+      "PayloadOffset": 39252,
       "PayloadLength": 25,
       "PayloadDebugContentSnippet": "DefaultCompany\nBattleTank",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 321
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/app.info",
@@ -4646,9 +4463,9 @@
         "Build/BattleTank_Data/app.info"
       ],
       "ToBuildDependencies": [
-        321
+        308
       ],
-      "DebugActionIndex": 322
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "CopyFiles Build/BattleTank_Data/Resources/unity default resources",
@@ -4660,7 +4477,7 @@
       "Outputs": [
         "Build/BattleTank_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 323
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "CopyFiles Build/BattleTank.exe",
@@ -4672,7 +4489,7 @@
       "Outputs": [
         "Build/BattleTank.exe"
       ],
-      "DebugActionIndex": 324
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -4684,7 +4501,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 325
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -4696,7 +4513,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 326
+      "DebugActionIndex": 313
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -4708,7 +4525,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 327
+      "DebugActionIndex": 314
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -4720,7 +4537,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 328
+      "DebugActionIndex": 315
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -4732,7 +4549,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 329
+      "DebugActionIndex": 316
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -4744,7 +4561,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 330
+      "DebugActionIndex": 317
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -4756,7 +4573,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 331
+      "DebugActionIndex": 318
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -4768,7 +4585,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 332
+      "DebugActionIndex": 319
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -4780,7 +4597,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 333
+      "DebugActionIndex": 320
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -4792,7 +4609,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 334
+      "DebugActionIndex": 321
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -4804,7 +4621,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 335
+      "DebugActionIndex": 322
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -4816,7 +4633,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 336
+      "DebugActionIndex": 323
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -4828,7 +4645,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 337
+      "DebugActionIndex": 324
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -4840,7 +4657,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 338
+      "DebugActionIndex": 325
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -4852,7 +4669,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 339
+      "DebugActionIndex": 326
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -4864,7 +4681,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 340
+      "DebugActionIndex": 327
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -4876,7 +4693,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 341
+      "DebugActionIndex": 328
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -4888,7 +4705,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 342
+      "DebugActionIndex": 329
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/config",
@@ -4900,7 +4717,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 343
+      "DebugActionIndex": 330
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -4912,7 +4729,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 344
+      "DebugActionIndex": 331
     },
     {
       "Annotation": "CopyFiles Build/UnityCrashHandler64.exe",
@@ -4924,7 +4741,7 @@
       "Outputs": [
         "Build/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 345
+      "DebugActionIndex": 332
     },
     {
       "Annotation": "CopyFiles Build/UnityPlayer.dll",
@@ -4936,7 +4753,7 @@
       "Outputs": [
         "Build/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 346
+      "DebugActionIndex": 333
     },
     {
       "Annotation": "CopyFiles Build/WinPixEventRuntime.dll",
@@ -4948,7 +4765,7 @@
       "Outputs": [
         "Build/WinPixEventRuntime.dll"
       ],
-      "DebugActionIndex": 347
+      "DebugActionIndex": 334
     },
     {
       "Annotation": "Player",
@@ -5258,10 +5075,8 @@
         302,
         303,
         304,
-        305,
         306,
         307,
-        308,
         309,
         310,
         311,
@@ -5271,8 +5086,10 @@
         315,
         316,
         317,
+        318,
         319,
         320,
+        321,
         322,
         323,
         324,
@@ -5285,23 +5102,10 @@
         331,
         332,
         333,
-        334,
-        335,
-        336,
-        337,
-        338,
-        339,
-        340,
-        341,
-        342,
-        343,
-        344,
-        345,
-        346,
-        347
+        334
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 348
+      "DebugActionIndex": 335
     }
   ],
   "FileSignatures": [
@@ -5431,28 +5235,7 @@
       "File": "Build/UnityCommon.props"
     },
     {
-      "File": "C:/lam game Unity 3D/BattleTank/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb"
-    },
-    {
-      "File": "C:/lam game Unity 3D/BattleTank/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.pdb"
-    },
-    {
       "File": "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
-    },
-    {
-      "File": "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonChat.pdb"
-    },
-    {
-      "File": "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
-    },
-    {
-      "File": "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.pdb"
-    },
-    {
-      "File": "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb"
-    },
-    {
-      "File": "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
     },
     {
       "File": "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Purchasing.Common.pdb"
@@ -5983,7 +5766,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 348
+          "Player": 335
         }
 ,  "DefaultNodes": [
     0

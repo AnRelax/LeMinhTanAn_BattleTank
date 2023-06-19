@@ -1,6 +1,5 @@
 using UnityEngine;
-using Photon.Pun;
-public class UIDirectionControl : MonoBehaviourPunCallbacks
+public class UIDirectionControl : MonoBehaviour
 {
      public bool m_UseRelativeRotation = true;
 
@@ -13,10 +12,9 @@ public class UIDirectionControl : MonoBehaviourPunCallbacks
 
     private void Update ()
     {
-        if(photonView.IsMine){
-            if (m_UseRelativeRotation){
-                transform.rotation = m_RelativeRotation;
-            }
-        } 
-    }
+        if (m_UseRelativeRotation){
+            transform.rotation = m_RelativeRotation;
+        }
+    } 
 }
+

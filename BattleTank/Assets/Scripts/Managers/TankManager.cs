@@ -1,6 +1,5 @@
 ﻿using System;
 using UnityEngine;
-using Photon.Pun;
 
 [Serializable]
 public class TankManager
@@ -35,34 +34,28 @@ public class TankManager
         }
     }
 
+    public void DisableControl ()
+    {
+        m_Movement.enabled = false;
+        m_Shooting.enabled = false;
 
-        // Used during the phases of the game where the player shouldn't be able to control their tank.
-        public void DisableControl ()
-        {
-            m_Movement.enabled = false;
-            m_Shooting.enabled = false;
+        //m_CanvasGameObject.SetActive (false);
+    }
 
-            m_CanvasGameObject.SetActive (false);
-        }
+    public void EnableControl ()
+    {
+        m_Movement.enabled = true;
+        m_Shooting.enabled = true;
 
+        //m_CanvasGameObject.SetActive (true);
+    }
 
-        // Used during the phases of the game where the player should be able to control their tank.
-        public void EnableControl ()
-        {
-            m_Movement.enabled = true;
-            m_Shooting.enabled = true;
+    public void Reset ()
+    {
+        m_Instance.transform.position = m_SpawnPoint.position;
+        m_Instance.transform.rotation = m_SpawnPoint.rotation;
 
-            m_CanvasGameObject.SetActive (true);
-        }
-
-
-        // Used at the start of each round to put the tank into it's default state.
-        public void Reset ()
-        {
-            m_Instance.transform.position = m_SpawnPoint.position;
-            m_Instance.transform.rotation = m_SpawnPoint.rotation;
-
-            m_Instance.SetActive (false);
-            m_Instance.SetActive (true);
-        }
+        m_Instance.SetActive (false);
+        m_Instance.SetActive (true);
+    }
 }
