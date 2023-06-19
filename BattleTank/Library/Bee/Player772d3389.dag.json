@@ -733,8 +733,8 @@
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.MetricTestData.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Common.dll",
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
@@ -2006,18 +2006,6 @@
       "DebugActionIndex": 120
     },
     {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Profiling.Core.dll",
-      "DisplayName": "Copying Unity.Profiling.Core.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.dll"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/Unity.Profiling.Core.dll"
-      ],
-      "DebugActionIndex": 121
-    },
-    {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.dll",
       "DisplayName": "Copying Unity.Multiplayer.Tools.Common.dll",
       "ActionType": "CopyFiles",
@@ -2026,6 +2014,18 @@
       ],
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.dll"
+      ],
+      "DebugActionIndex": 121
+    },
+    {
+      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Profiling.Core.dll",
+      "DisplayName": "Copying Unity.Profiling.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.dll"
+      ],
+      "Outputs": [
+        "Build/BattleTank_Data/Managed/Unity.Profiling.Core.dll"
       ],
       "DebugActionIndex": 122
     },
@@ -3830,18 +3830,6 @@
       "DebugActionIndex": 272
     },
     {
-      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Profiling.Core.pdb",
-      "DisplayName": "Copying Unity.Profiling.Core.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.pdb"
-      ],
-      "Outputs": [
-        "Build/BattleTank_Data/Managed/Unity.Profiling.Core.pdb"
-      ],
-      "DebugActionIndex": 273
-    },
-    {
       "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.pdb",
       "DisplayName": "Copying Unity.Multiplayer.Tools.Common.pdb",
       "ActionType": "CopyFiles",
@@ -3850,6 +3838,18 @@
       ],
       "Outputs": [
         "Build/BattleTank_Data/Managed/Unity.Multiplayer.Tools.Common.pdb"
+      ],
+      "DebugActionIndex": 273
+    },
+    {
+      "Annotation": "CopyFiles Build/BattleTank_Data/Managed/Unity.Profiling.Core.pdb",
+      "DisplayName": "Copying Unity.Profiling.Core.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.pdb"
+      ],
+      "Outputs": [
+        "Build/BattleTank_Data/Managed/Unity.Profiling.Core.pdb"
       ],
       "DebugActionIndex": 274
     },
@@ -4317,8 +4317,8 @@
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.MetricTestData.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
-        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Tools.Common.dll",
+        "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll",
         "C:/lam game Unity 3D/BattleTank/Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",

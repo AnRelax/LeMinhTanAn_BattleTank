@@ -9,88 +9,60 @@ public class GameManager : NetworkBehaviour
     public int m_NumRoundsToWin = 5;
     public float m_StartDelay = 3f; 
     public float m_EndDelay = 3f;
-    public float m_TimeSpawnTransport=15f;
-    public float m_timer;
-    public float positionX;
-    public float positionZ; 
     public CameraControl m_CameraControl;
     public Text m_MessageText;              
     public GameObject[] m_CountPlayers;        
     public TankManager[] m_Tanks; 
-    public Vector3 m_SpawnPoint;
-    public Quaternion m_SpawnRotaion;
     private int m_RoundNumber;  
     private WaitForSeconds m_StartWait; 
     private WaitForSeconds m_EndWait;
     private TankManager m_RoundWinner;
     private TankManager m_GameWinner; 
-    public bool StartGame;
-
-    const float k_MaxDepenetrationVelocity = float.PositiveInfinity;
- 
     private void Start()
     {
         m_StartWait = new WaitForSeconds (m_StartDelay);
         m_EndWait = new WaitForSeconds (m_EndDelay);
         if(!IsServer)
             return;
-        positionX=Random.Range(-58,-35);
-        positionZ=Random.Range(-58,-35);    
+        
     }
 
     private void Update() {
         m_CountPlayers=GameObject.FindGameObjectsWithTag("Player");
-        if(m_CountPlayers.Length>0 && !StartGame)
+        if(m_CountPlayers.Length > 0)
         {
-            SetAllTankClientRpc();
-            SetCameraTargetsClientRpc();
+            TankClientRpc();
+            CameraTargetsClientRpc();
         }
         if(!IsServer)
             return;
-        if(StartGame)
-        {
-            m_SpawnPoint=new Vector3(positionX,25,positionZ);
-            m_timer+=Time.deltaTime;
-            if(m_timer>=m_TimeSpawnTransport)
-            {
-                m_timer=0;
-            }    
-        }
     }
 
     public void StartGameBtn()
     {
         if(!IsServer)
             return;
-        StartGameBtnClientRpc();
+        StartGameClientRpc();
     }
 
     [ClientRpc]
-    private void StartGameBtnClientRpc()
+    private void StartGameClientRpc()
     {
         if(m_CountPlayers.Length>1)
         {
-            StartGame=true;
+           
             StartCoroutine(GameLoop());
         }
     }
 
-    // [ClientRpc]
-    // private void SpawnTransportClientRpc()
-    // {
-    //     Instantiate(m_Transport,m_SpawnPoint,m_SpawnRotaion);
-    //     positionX=Random.Range(-58,-35);
-    //     positionZ=Random.Range(-58,-35);
-    // }
-
     [ClientRpc]
-    private void SetAllTankClientRpc()
+    private void TankClientRpc()
     {
         SpawnAllTanks();
     }
 
     [ClientRpc]
-    private void SetCameraTargetsClientRpc()
+    private void CameraTargetsClientRpc()
     {
         SetCameraTargets();
     }

@@ -35,21 +35,15 @@ public class TankHealth : NetworkBehaviour
 
         if(IsServer){
             SetHealthUIServerRpc(m_CurrentHealth);
-            //SetHealthUIClientRpc();
         }else{
             SetHealthUIServerRpc(m_CurrentHealth);
-            // SetHealthUIClientRpc();
-            // SetHealthUI();
         }
 
         if (m_CurrentHealth <= 0f && !m_Dead){
             if(IsServer){
-                //OnDeathClientRpc();
                 OnDeathServerRpc(m_CurrentHealth);
             }else{
                 OnDeathServerRpc(m_CurrentHealth);
-                //OnDeathClientRpc();
-                //OnDeath();
             }
         }  
     }

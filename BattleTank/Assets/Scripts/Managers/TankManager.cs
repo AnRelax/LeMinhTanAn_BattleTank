@@ -39,15 +39,12 @@ public class TankManager
         m_Movement.enabled = false;
         m_Shooting.enabled = false;
 
-        //m_CanvasGameObject.SetActive (false);
     }
 
     public void EnableControl ()
     {
         m_Movement.enabled = true;
         m_Shooting.enabled = true;
-
-        //m_CanvasGameObject.SetActive (true);
     }
 
     public void Reset ()
