@@ -34,8 +34,6 @@ public class GameManager : NetworkBehaviour
             TankClientRpc();
             CameraTargetsClientRpc();
         }
-        if(!IsServer)
-            return;
     }
 
     public void StartGameBtn()
